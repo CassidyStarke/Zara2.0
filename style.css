@@ -1,0 +1,94 @@
+body {
+    background-color: grey;
+}
+
+header section {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    flex-wrap: wraps;
+}
+
+header img {
+    max-width: 150px; 
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+div nav ul:first-of-type {
+    justify-content: flex-start; 
+    font-size: 2em; 
+    margin-top: 1em;
+}
+
+header nav ul:last-of-type {
+    justify-content: flex-end; 
+    font-size: 1em; 
+    margin-top: 1em;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 1em; 
+}
+
+/* Hover-effect voor links */
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 250px; 
+    padding: 10px;
+}
+
+main img {
+    width: 100%; 
+    height: auto;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    max-width: 90%; 
+    margin: 5px auto;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    text-align: right;
+}
+
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer p, footer nav {
+    color: black;
+    font-size: 1em;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: colu
+}
+
+
